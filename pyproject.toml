@@ -1,0 +1,7 @@
+[project]
+name = "paper-neurips-2026-persample-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
