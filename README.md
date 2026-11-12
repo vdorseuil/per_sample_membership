@@ -2,8 +2,9 @@
 
 Code for the NeurIPS 2026 paper **"Predicting Per-Sample Membership Inference Vulnerability without Retraining"**.
 
-![Main experimental result](figures/images/topk_recall_lira_1e-1_topleg.pdf)
-*Figure: Comparison of our methods $\widehat{\nabla \ell_i}^{\text{IF, NS}}$ versus retraining-free proxies across different datasets. Higher curves are better.*
+![Main experimental result](./figures/images/topk_recall_lira_1e-1_topleg-1.png)
+
+*Figure: Comparison of our methods* $\widehat{\nabla \ell_i}^{\text{IF, NS}}$ *versus retraining-free proxies across different datasets. Higher curves are better.*
 
 ## 1. Setup
 
@@ -14,7 +15,6 @@ Then install the dependencies using `uv`:
 ```bash
    # Install uv: https://docs.astral.sh/uv/getting-started/installation/
    uv sync --frozen --locked
-   uv run python src/preload_cache.py   # BERT/DINO backbones + MedMNIST → ./cache
 ```
 
 or if you cannot use `uv` you can reproduce the environment with the original `requirements.txt`:
